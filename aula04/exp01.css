@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+#div{
+    background-color: rgb(255, 251, 135);
+    opacity: 0.6;
+    width: 1fr;
+    border: solid black 2px;
+    background-image: url("imagem01.png");
+    background-repeat: no-repeat;
+    background-position: 1050px;
+    background-attachment: scroll;
+    background-size: 100px;
+}
+
+#d1{
+background-color:  rgb(255, 255, 0);
+height: 8000px;
+width: 1fr;
+}
+#img{
+    
+    width: 100px;
+    height: 80px;
+    padding: 6px;
+    background-size: 100px ;
+    background-image: url("imagem01.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: left center;
+    margin-left: 390px; 
+}

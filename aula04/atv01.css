@@ -1,0 +1,7 @@
+body{
+    background-image: url(imagem02.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    margin-right: 200px;
+    background-attachment: fixed; 
+}
