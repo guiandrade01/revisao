@@ -1,0 +1,45 @@
+body{
+    margin: 10px;
+    background-color: red;
+    border: 10px black;
+    border-style: solid;
+}
+
+.box{
+    height: 600px;
+    display: grid;
+    background-color: black;
+    grid-template-areas: "q1 q4"
+                         "q2 q3";
+
+    grid-auto-rows: 450px 150px;
+    grid-template-columns: auto 150px;
+}
+
+.quadrante01{
+    background-color: aquamarine;
+    border: 2px black;
+    border-style: solid;
+    grid-area: q1;
+}
+
+.quadrante02{
+    background-color: gray;
+    border: 2px black;
+    border-style: solid;
+    grid-area: q2;
+}
+
+.quadrante03{
+    background-color: yellowgreen;
+    border: 2px black;
+    border-style: solid;
+    grid-area: q3;
+}
+
+.quadrante04{
+    background-color: yellow;
+    border: 2px black;
+    border-style: solid;
+    grid-area: q4;
+}
